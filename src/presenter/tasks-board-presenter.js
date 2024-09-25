@@ -3,7 +3,7 @@ import TaskComponent from "../view/task-component.js";
 import { render } from "../framework/render.js";
 
 const numberOfStatuses = 4;
-const numberOfTasks = 4;
+const numberOfTasks = 3;
 
 export default class TasksBoardPresenter {
   taskBoardContainer;
