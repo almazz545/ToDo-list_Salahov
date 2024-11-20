@@ -1,0 +1,22 @@
+.clear-button {
+  background-color: #c73f30e1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+}
+
+.clear-button:disabled,
+button[disabled] {
+  cursor : not-allowed;
+  background-color: #baa4a4;
+  color:#666666;
+
+}
